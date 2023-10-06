@@ -72,8 +72,39 @@ p {
   padding: 18px 30px;
 }
 
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 18px;
+  text-decoration: none;
+}
+.email-link:hover {
+  text-decoration: underline;
+}
+
 .project-description {
   padding: 120px 60px;
+}
+
+.footer {
+  background: var(--secondary-color);
+  text-align: center;
+  border-radius: 20px;
+  margin: 50px 160px 50px 50px;
+  padding: 40px 5px 15px;
+}
+
+.icons a {
+  padding: 30px;
+}
+
+.icons a:hover {
+  opacity: 70%;
+}
+
+#contact h2 {
+  font-size: 44px;
 }
 
 @media (max-width: 900px) {
@@ -89,9 +120,15 @@ p {
   .hero {
     padding: 80px 20px;
   }
+  .footer {
+    margin: 50px 50px 50px 50px;
+  }
 
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  #contact {
+    font-size: 32px;
   }
 }
