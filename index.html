@@ -34,26 +34,30 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes logo"
+          />
           <img
             src="images/logo-small.jpeg"
             class="logo d-block d-md-none"
-            alt=""
+            alt="SheCodes Logo"
           />
         </a>
         <ul>
           <li class="active">
-            <a href="/"> Home</a>
+            <a href="/" title="Homepage"> Home</a>
           </li>
           <li>
-            <a href="/about.html"> About</a>
+            <a href="/about.html" title="About Tess Andersen"> About</a>
           </li>
           <li>
-            <a href="/work.html"> Work</a>
+            <a href="/work.html" title="Tess Andersen's work"> Work</a>
           </li>
           <li>
-            <a href="/contact.html"> Contact</a>
+            <a href="/contact.html" title="Contact Tess Andersen"> Contact</a>
           </li>
         </ul>
       </nav>
@@ -63,7 +67,9 @@
       <h1>Tess Andersen</h1>
       <h2 class="mb-5">Front-end developer based in Vancouver, Canada</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">
@@ -72,7 +78,11 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/yogurt.png" class="img-fluid" alt="Yogurt project" />
+          <img
+            src="images/yogurt.png"
+            class="img-fluid"
+            alt="Yogurt project preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -83,7 +93,12 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a
+              href="/work.html"
+              class="btn btn-branding-outline"
+              title="Yogurt project"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -97,11 +112,15 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather.png" class="img-fluid" alt="Weather app" />
+          <img
+            src="images/weather.png"
+            class="img-fluid"
+            alt="Weather project preview"
+          />
         </div>
       </div>
       <div class="row">
@@ -109,7 +128,7 @@
           <img
             src="images/dictionary.png"
             class="img-fluid"
-            alt="Distionary app"
+            alt="Dictionary project preview"
           />
         </div>
         <div class="col">
@@ -121,22 +140,30 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
       <footer>
         <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">Let's talk here</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Tess"
+              >Let's talk here</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-4">
-          <a href="mailto:andersentess@gmail.com" class="email-link"
+          <a
+            href="mailto:andersentess@gmail.com"
+            class="email-link"
+            title="Email Tess"
             >andersentess@gmail.com</a
           >
         </div>
@@ -144,21 +171,31 @@
           <a
             href="https://www.linkedin.com/in/tess-andersen/"
             target="_blank"
-            title="Tess Andersen LinkedIn"
+            title="LinkedIn Profile"
           >
             <i class="fa-brands fa-linkedin"></i>
           </a>
           <a
             href="https://github.com/andersentess"
             target="_blank"
-            title="Tess Andersen github"
+            title="GitHub Profile"
           >
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href="mailto:andersentess@gmail.com">
+          <a href="mailto:andersentess@gmail.com" title="Email Tess">
             <i class="fa-solid fa-envelope"></i>
           </a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Tess Andersen, and it is
+          <a
+            href="https://github.com/andersentess/portfolio-project"
+            target="_blank"
+            title="GitHub project"
+            class="text-decoration-none"
+            >open-sourced.</a
+          >
+        </p>
       </footer>
     </div>
   </body>
