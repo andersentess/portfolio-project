@@ -34,22 +34,17 @@
     <title>Tess Andersen - Contact</title>
   </head>
   <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between">
+    <nav class="nav-bar">
+      <nav class="d-flex justify-content-between p-3">
         <a href="/" title="Homepage">
           <img
-            src="images/logo.png"
-            class="logo d-none d-md-block"
-            alt="SheCodes logo"
-          />
-          <img
-            src="images/logo-small.jpeg"
-            class="logo d-block d-md-none"
-            alt="SheCodes Logo"
+            src="images/logo-tessandersen-no-bg.png"
+            class="logo d-md-block"
+            alt="Tess Andersen logo"
           />
         </a>
         <ul>
-          <li>
+          <li class="active">
             <a href="/" title="Homepage"> Home</a>
           </li>
           <li>
@@ -58,72 +53,33 @@
           <li>
             <a href="/work.html" title="Tess Andersen's work"> Work</a>
           </li>
-          <li class="active">
+          <li>
             <a href="/contact.html" title="Contact Tess Andersen"> Contact</a>
           </li>
         </ul>
       </nav>
-    </div>
-    <div class="content-container container">
+    </nav>
+    <div class="content-container container d-flex justify-content-center">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
-        <h3>LinkedIn</h3>
-        <p>
-          <a href="http://www.linkedin.com/in/tess-andersen" target="_blank">
-            Tess Andersen</a
-          >
-        </p>
-        <h3>GitHub</h3>
-        <p>
-          <a href="https://github.com/andersentess" target="_blank">
-            @andersentess</a
-          >
-        </p>
-        <h3>Email</h3>
-        <p>
-          <a href="mailto:andersentess@gmail.com">andersentess@gmail.com</a>
-        </p>
-      </div>
-      <footer>
-        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
-          <div>
-            <h3>Work Inquiry</h3>
-            <p class="text-muted">Let's work together</p>
-          </div>
-          <div>
-            <a
-              href="/contact.html"
-              class="btn btn-branding mt-3"
-              title="Contact Tess"
-              >Let's talk here</a
-            >
-          </div>
-        </div>
-        <div class="d-flex justify-content-center mb-4">
-          <a
-            href="mailto:andersentess@gmail.com"
-            class="email-link"
-            title="Email Tess"
-            >andersentess@gmail.com</a
-          >
-        </div>
-        <div class="social-links d-flex justify-content-center">
+        <div class="contact-info text-center">
+          <p>
+            <i class="fa-solid fa-envelope"></i
+            ><a href="mailto:andersentess@gmail.com"> andersentess@gmail.com</a>
+          </p>
           <a
             href="https://www.linkedin.com/in/tess-andersen/"
             target="_blank"
             title="LinkedIn Profile"
           >
-            <i class="fa-brands fa-linkedin"></i>
+            <p><i class="fa-brands fa-linkedin"></i> LinkedIn</p>
           </a>
           <a
             href="https://github.com/andersentess"
             target="_blank"
             title="GitHub Profile"
           >
-            <i class="fa-brands fa-github"></i>
-          </a>
-          <a href="mailto:andersentess@gmail.com" title="Email Tess">
-            <i class="fa-solid fa-envelope"></i>
+            <p><i class="fa-brands fa-github"></i> GitHub</p>
           </a>
         </div>
         <p class="text-center mt-5">
@@ -136,7 +92,7 @@
             >open-sourced.</a
           >
         </p>
-      </footer>
+      </div>
     </div>
   </body>
 </html>
