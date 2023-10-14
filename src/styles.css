@@ -119,8 +119,16 @@ p {
   color: white;
 }
 
+.project {
+  align-items: center;
+}
+
+.project img {
+  max-height: 400px;
+}
+
 .project-description {
-  padding: 120px 60px;
+  padding: 20px 60px;
 }
 
 .logo {
